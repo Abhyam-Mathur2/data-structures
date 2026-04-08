@@ -19,7 +19,7 @@ public class delearray {
         }
         System.out.println("array after deleting ");
         for (int i = 0; i < size; i++) {
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
     }
 }
