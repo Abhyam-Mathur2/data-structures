@@ -9,10 +9,10 @@ public class evenoddwithoutmodolus {
     public static void oddoreven(int nums){
         int res=nums/2;
         if(res*2==nums){
-            System.out.println("even");
+            System.out.println("even ");
         }
         else{
-            System.out.println("odd");
+            System.out.println("odd ");
         }
     }
 }
