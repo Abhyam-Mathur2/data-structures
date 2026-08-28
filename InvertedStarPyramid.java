@@ -12,6 +12,7 @@ public class InvertedStarPyramid {
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
 }
