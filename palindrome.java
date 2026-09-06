@@ -9,7 +9,7 @@ public class palindrome {
     public static void pali(int n){
         int temp=n;
         int c=0;
-        while(n>0){
+        while(n>0){ //O(logn)
             int d=n%10;
             c=c*10+d;
             n=n/10;
