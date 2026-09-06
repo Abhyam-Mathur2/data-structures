@@ -9,11 +9,11 @@ public class countdigit {
     }
     public static int countd(int a ){
         int c=0;
-        while(a>0){
+        while(a>0){ //O(logn)
             c++;
             a=a/10;
             /*oprimal solution
-            int c=(int)(Math.log10(a)+1);
+            int c=(int)(Math.log10(a)+1); // O(1)
              */
         }
         return c;
