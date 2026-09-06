@@ -8,7 +8,7 @@ public class rverseano {
     }
     public static void reversen(int n){
         int ne=0;
-        while(n>0){
+        while(n>0){ //O(logn)
             int d=n%10;
             ne=ne*10+d;
             n=n/10;
