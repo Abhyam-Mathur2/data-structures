@@ -12,6 +12,6 @@ public class gcd {
         if(b==0){
             return a;
         }
-        return gcdn(b,a%b);
+        return gcdn(b,a%b); //log(min(a,b))
     }
 }
