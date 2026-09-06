@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //logn
 public class armstrong {
     public static void main(String[] args){
         Scanner ob=new Scanner(System.in);
