@@ -6,6 +6,7 @@ public class rec2 {
         int n=ob.nextInt();
         rec(n);
     }
+    // printing in reverse
     public static void rec(int n){
         if(n==0){
             return;
