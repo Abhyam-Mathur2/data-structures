@@ -9,7 +9,7 @@ public class insertionsort {
         for (int i = 0; i < a; i++) {
             arr[i]=ob.nextInt();
         }
-        for (int i = 1; i <a ; i++) {
+        for (int i = 1; i <a ; i++) {               //O(n2)
             int key=arr[i];
             int j=i-1;
             while(j>=0 && arr[j]>key){
