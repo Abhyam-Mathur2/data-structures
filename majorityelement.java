@@ -21,6 +21,5 @@ public class majorityelement {
             }
         }
         System.out.print(answer);
-
     }
 }
